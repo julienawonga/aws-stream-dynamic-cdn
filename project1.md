@@ -4,7 +4,7 @@ In this project, I have use Amazon Elastic Transcoder to convert the video into 
 ##Architecture 
 ![Architecture](images/image-1.png)
 
-##Steps
+## Steps
 - Step 1: Create an Amazon S3 bucket
 - Step 2: Create lambda function,  configure Iam role to access S3 bucket and Elastic Transcoder , configure trigger to S3 bucket .
 - Step 3: Create Elastic Transcoder pipeline and configure output bucket and job
