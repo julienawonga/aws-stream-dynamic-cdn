@@ -1,7 +1,7 @@
 #Project : Stream dynamic content by using Amazon CloudFront
 ##Overview
 In this project, I have use Amazon Elastic Transcoder to convert the video into multiple bit rates that can be streamed to a variety of devices. I have use Amazon S3 to store the source video and transcoded media files. I have use Amazon CloudFront to deliver the media files to the end user.  Amazon Elastic Transcoder Was triggered by Aws lambda function when a new video was uploaded to the S3 bucket.
-##Architecture
+##Architecture 
 ![Architecture](images/image-1.png)
 ##Steps
 - Step 1: Create an Amazon S3 bucket
